@@ -1,0 +1,77 @@
+
+/*  start header */
+.header{
+    background-image: url(../img/bg-masthead.jpg);
+    background-color:black;
+    background-blend-mode: luminosity;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.header a{
+    color:white;
+}
+/* start landing */
+.container .content {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+.content h1{
+    color: white;
+    text-align: center;
+}
+hr{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 70px;
+    height: 20px;
+    color: orange;
+}
+.content p{
+    color: white;
+    text-align: center;
+}
+.container .content button{
+    border-radius: 33px;
+    width: 180px;
+    height: 53px;
+    margin-top: 40px;
+    margin-left: 34%;
+    margin-right: 34%;
+}
+/* get started  */
+.get-started{
+    background-color: orangered;
+    height: 65vh;
+}
+.get-started.container{
+    margin-top: 70px;
+}
+.get-started .content{
+    margin-top: 10%;
+}
+.get-started button{
+    background-color: white;
+    color: black;
+}
+/* At Your Service */
+.At-Your-Service .container{
+    margin: 10%;
+}
+.At-Your-Service .container h2{
+    text-align: center;
+}
+.At-Your-Service .row .items{
+    width: 17%;
+    margin: 4%;
+}
+.At-Your-Service .row .items i{
+font-size: 6vh;
+text-align: center;
+color: orangered;
+}
